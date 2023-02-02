@@ -128,10 +128,13 @@ body {
   @media (max-width: 767px) {
 	.container {
 	  flex-wrap: wrap;
-	  bottom: 500px;
+	  bottom: 100px;
+	  width: 98%;
 	}
 	
 	img {
-	  margin: 10px;
+	height: 30px;
+	width: 30px;
+	margin: 20px;
 	}
   }
