@@ -107,3 +107,31 @@ body {
 	  color: #1e1e1c;
 	}
   }
+
+  .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 100px;
+	margin: 0 auto;
+	width: 99%;
+  }
+  
+  img {
+	height: 50px;
+	width: 50px;
+	margin: 0px 50px;
+	
+  }
+  
+  @media (max-width: 767px) {
+	.container {
+	  flex-wrap: wrap;
+	  bottom: 500px;
+	}
+	
+	img {
+	  margin: 10px;
+	}
+  }
