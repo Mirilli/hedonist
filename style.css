@@ -1,0 +1,109 @@
+body {
+	animation: backgroundFade 50s ease-in-out infinite;
+  }
+  
+  @keyframes backgroundFade {
+	0% {
+	  background-color: #03ffff;
+	}
+	9.09% {
+	  background-color: #da58ed;
+	}
+	18.18% {
+	  background-color: #88fa4f;
+	}
+	27.27% {
+	  background-color: #da58ed;
+	}
+	36.36% {
+	  background-color: #03ffff;
+	}
+	45.45% {
+	  background-color: #feff00;
+	}
+	54.54% {
+	  background-color: #88fa4f;
+	}
+	63.63% {
+	  background-color: #feff00;
+	}
+	72.72% {
+	  background-color: #1e1e1c;
+	}
+	81.81% {
+	  background-color: #ffffff;
+	}
+	90.9% {
+	  background-color: #1e1e1c;
+	}
+	100% {
+	  background-color: #03ffff;
+	}
+  }
+
+#hedonist {
+	font-family: 'Helvetica', 'Arial', sans-serif, bold;
+    font-size: 50pt;
+    text-align: center;
+	top: 50%;
+    left: 50%;
+    width: 10em;
+    height: 18em;
+    margin-top: -0.6em;
+    margin-left: -5em;
+    position: fixed;
+	animation: fontFade 50s ease-in-out infinite;
+}
+
+#trademark {
+	font-family: 'Helvetica', 'Arial', sans-serif, bold;
+    font-size: 18pt;
+    text-align: center;
+	top: 50%;
+    left: 50%;
+    width: 10em;
+    height: 18em;
+    margin-top: -1.7em;
+    margin-left: 1em;
+    position: fixed;
+	animation: fontFade 50s ease-in-out infinite;
+}
+
+@keyframes fontFade {
+	0% {
+	  color: #1e1e1c;
+	}
+	9.09% {
+	  color: #1e1e1c;
+	}
+	18.18% {
+	  color: #1e1e1c;
+	}
+	27.27% {
+	  color: #1e1e1c;
+	}
+	36.36% {
+	  color: #1e1e1c;
+	}
+	45.45% {
+	  color: #1e1e1c;
+	}
+	54.54% {
+	  color: #1e1e1c;
+	}
+	63.63% {
+	  color: #1e1e1c;
+	}
+	72.72% {
+	  color: #ffffff;
+	}
+	81.81% {
+	  color: #1e1e1c;
+	}
+	90.9% {
+	  color: #ffffff;
+	}
+	100% {
+	  color: #1e1e1c;
+	}
+  }
