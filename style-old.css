@@ -1,0 +1,28 @@
+body {
+	background: linear-gradient(-90deg, #403f4c, #e84855, #f9dc5c, #3185fc, #efbcd5);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1 {
+    font-family: 'Helvetica', 'Arial', sans-serif, bold;
+    color: #444444;
+    font-size: 50pt;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

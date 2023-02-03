@@ -4,40 +4,40 @@ body {
   
   @keyframes backgroundFade {
 	0% {
-	  background-color: #03ffff;
+	  background-color: #000000;
 	}
 	9.09% {
-	  background-color: #da58ed;
+	  background-color: #ffffff;
 	}
 	18.18% {
-	  background-color: #88fa4f;
+	  background-color: #000000;
 	}
 	27.27% {
-	  background-color: #da58ed;
+	  background-color: #ffffff;
 	}
 	36.36% {
-	  background-color: #03ffff;
+	  background-color: #000000;
 	}
 	45.45% {
-	  background-color: #feff00;
+	  background-color: #ffffff;
 	}
 	54.54% {
-	  background-color: #88fa4f;
+	  background-color: #000000;
 	}
 	63.63% {
-	  background-color: #feff00;
+	  background-color: #ffffff;
 	}
 	72.72% {
-	  background-color: #1e1e1c;
+	  background-color: #000000;
 	}
 	81.81% {
 	  background-color: #ffffff;
 	}
 	90.9% {
-	  background-color: #1e1e1c;
+	  background-color: #000000;
 	}
 	100% {
-	  background-color: #03ffff;
+	  background-color: #000000;
 	}
   }
 
@@ -118,23 +118,231 @@ body {
 	width: 99%;
   }
   
-  img {
+  #links {
 	height: 50px;
 	width: 50px;
 	margin: 0px 50px;
 	
   }
   
-  @media (max-width: 767px) {
+  @media (max-width: 600px) {
 	.container {
 	  flex-wrap: wrap;
 	  bottom: 100px;
 	  width: 98%;
 	}
 	
-	img {
+	#links {
 	height: 30px;
 	width: 30px;
 	margin: 20px;
+	}
+
+	#hedonist {
+		font-size: 100pt;
+	}
+
+	#trademark {
+		font-size: 50pt;
+	}
+  }
+
+  #h-hedonist-w {
+	top: 50%;
+    left: 50%;
+    width: 174px;
+    height: 181px;
+    margin-top: -6em;
+    margin-left: -5em;
+    position: fixed;
+	animation: pngFade-1 50s ease-in-out infinite;
+}
+
+#h-hedonist-b {
+	top: 50%;
+    left: 50%;
+    width: 174px;
+    height: 181px;
+    margin-top: -6em;
+    margin-left: -5em;
+    position: fixed;
+	animation: pngFade-2 50s ease-in-out infinite;
+}
+
+#hedonist-w {
+	top: 50%;
+    left: 50%;
+    width: 296px;
+    height: 62px;
+    margin-top: -2em;
+    margin-left: -9em;
+    position: fixed;
+	animation: pngFade-3 50s ease-in-out infinite;
+}
+
+#hedonist-b {
+	top: 50%;
+    left: 50%;
+    width: 296px;
+    height: 62px;
+    margin-top: -2em;
+    margin-left: -9em;
+    position: fixed;
+	animation: pngFade-4 50s ease-in-out infinite;
+}
+
+@keyframes pngFade-1 {
+	0% {
+	  opacity: 100%;
+	}
+	9.09% {
+	  opacity: 0%;
+	}
+	18.18% {
+	  opacity: 0%;
+	}
+	27.27% {
+	  opacity: 0%;
+	}
+	36.36% {
+	  opacity: 100%;
+	}
+	45.45% {
+	  opacity: 0%;
+	}
+	54.54% {
+	  opacity: 0%;
+	}
+	63.63% {
+	  opacity: 0%;
+	}
+	72.72% {
+	  opacity: 100%;
+	}
+	81.81% {
+	  opacity: 0%;
+	}
+	90.9% {
+	  opacity: 0%;
+	}
+	100% {
+	  opacity: 100%;
+	}
+  }
+
+  @keyframes pngFade-2 {
+	0% {
+	  opacity: 0%;
+	}
+	9.09% {
+	  opacity: 100%;
+	}
+	18.18% {
+	  opacity: 0%;
+	}
+	27.27% {
+	  opacity: 0%;
+	}
+	36.36% {
+	  opacity: 0%;
+	}
+	45.45% {
+	  opacity: 100%;
+	}
+	54.54% {
+	  opacity: 0%;
+	}
+	63.63% {
+	  opacity: 0%;
+	}
+	72.72% {
+	  opacity: 0%;
+	}
+	81.81% {
+	  opacity: 100%;
+	}
+	90.9% {
+	  opacity: 0%;
+	}
+	100% {
+	  opacity: 0%;
+	}
+  }
+
+  @keyframes pngFade-3 {
+	0% {
+	  opacity: 0%;
+	}
+	9.09% {
+	  opacity: 0%;
+	}
+	18.18% {
+	  opacity: 100%;
+	}
+	27.27% {
+	  opacity: 0%;
+	}
+	36.36% {
+	  opacity: 0%;
+	}
+	45.45% {
+	  opacity: 0%;
+	}
+	54.54% {
+	  opacity: 100%;
+	}
+	63.63% {
+	  opacity: 0%;
+	}
+	72.72% {
+	  opacity: 0%;
+	}
+	81.81% {
+	  opacity: 0%;
+	}
+	90.9% {
+	  opacity: 100%;
+	}
+	100% {
+	  opacity: 0%;
+	}
+  }
+
+  @keyframes pngFade-4 {
+	0% {
+	  opacity: 0%;
+	}
+	9.09% {
+	  opacity: 0%;
+	}
+	18.18% {
+	  opacity: 0%;
+	}
+	27.27% {
+	  opacity: 100%;
+	}
+	36.36% {
+	  opacity: 0%;
+	}
+	45.45% {
+	  opacity: 0%;
+	}
+	54.54% {
+	  opacity: 0%;
+	}
+	63.63% {
+	  opacity: 100%;
+	}
+	72.72% {
+	  opacity: 0%;
+	}
+	81.81% {
+	  opacity: 0%;
+	}
+	90.9% {
+	  opacity: 0%;
+	}
+	100% {
+	  opacity: 0%;
 	}
   }
