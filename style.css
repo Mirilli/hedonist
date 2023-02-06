@@ -108,7 +108,7 @@ body {
 	}
   }
 
-  .container {
+  .container-w {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -116,6 +116,18 @@ body {
 	bottom: 100px;
 	margin: 0 auto;
 	width: 99%;
+	animation: containerFade-w 50s ease-in-out infinite;
+  }
+
+  .container-b {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 100px;
+	margin: 0 auto;
+	width: 99%;
+	animation: containerFade-b 50s ease-in-out infinite;
   }
   
   #links {
@@ -126,11 +138,17 @@ body {
   }
   
   @media (max-width: 600px) {
-	.container {
+	.container-w {
 	  flex-wrap: wrap;
 	  bottom: 100px;
 	  width: 98%;
 	}
+
+	.container-b {
+		flex-wrap: wrap;
+		bottom: 100px;
+		width: 98%;
+	  }	
 	
 	#links {
 	height: 30px;
@@ -338,6 +356,84 @@ body {
 	}
 	81.81% {
 	  opacity: 0%;
+	}
+	90.9% {
+	  opacity: 0%;
+	}
+	100% {
+	  opacity: 0%;
+	}
+  }
+
+  @keyframes containerFade-w {
+	0% {
+	  opacity: 100%;
+	}
+	9.09% {
+	  opacity: 0%;
+	}
+	18.18% {
+	  opacity: 100%;
+	}
+	27.27% {
+	  opacity: 0%;
+	}
+	36.36% {
+	  opacity: 100%;
+	}
+	45.45% {
+	  opacity: 0%;
+	}
+	54.54% {
+	  opacity: 100%;
+	}
+	63.63% {
+	  opacity: 0%;
+	}
+	72.72% {
+	  opacity: 100%;
+	}
+	81.81% {
+	  opacity: 0%;
+	}
+	90.9% {
+	  opacity: 100%;
+	}
+	100% {
+	  opacity: 100%;
+	}
+  }
+
+  @keyframes containerFade-b {
+	0% {
+	  opacity: 0%;
+	}
+	9.09% {
+	  opacity: 100%;
+	}
+	18.18% {
+	  opacity: 0%;
+	}
+	27.27% {
+	  opacity: 100%;
+	}
+	36.36% {
+	  opacity: 0%;
+	}
+	45.45% {
+	  opacity: 100%;
+	}
+	54.54% {
+	  opacity: 0%;
+	}
+	63.63% {
+	  opacity: 100%;
+	}
+	72.72% {
+	  opacity: 0%;
+	}
+	81.81% {
+	  opacity: 100%;
 	}
 	90.9% {
 	  opacity: 0%;
